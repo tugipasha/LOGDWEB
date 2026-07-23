@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex, nofollow">
+  <title>LOGD Admin Panel</title>
+  <link rel="icon" type="image/webp" href="../images/logdLogo.webp">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/admin.css">
+</head>
+<body class="admin-body">
+
+  <!-- Login Screen -->
+  <div id="login-screen" class="admin-login">
+    <div class="login-card">
+      <div class="login-logo">
+        <img src="../images/solyukarilogo.webp" alt="LOGD">
+        <h1>LOGD Admin</h1>
+        <p>İçerik yönetim paneli</p>
+      </div>
+      <div id="login-error" class="login-error">Kullanıcı adı veya şifre hatalı.</div>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="username">Kullanıcı Adı</label>
+          <input type="text" id="username" name="username" required autocomplete="username">
+        </div>
+        <div class="form-group">
+          <label for="password">Şifre</label>
+          <input type="password" id="password" name="password" required autocomplete="current-password">
+        </div>
+        <button type="submit" class="btn btn-primary">Giriş Yap</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- Dashboard -->
+  <div id="dashboard" class="hidden">
+    <button class="mobile-toggle" id="sidebar-toggle" aria-label="Menü">☰</button>
+
+    <div class="admin-layout">
+      <aside class="admin-sidebar" id="sidebar">
+        <div class="sidebar-header">
+          <h2>LOGD Admin</h2>
+          <span>İçerik Yönetimi</span>
+        </div>
+        <nav class="sidebar-nav">
+          <button class="nav-item active" data-panel="home">🏠 Ana Sayfa</button>
+          <button class="nav-item" data-panel="about">📖 Hakkımızda</button>
+          <button class="nav-item" data-panel="events">📅 Etkinlikler</button>
+          <button class="nav-item" data-panel="news">📰 Haberler</button>
+          <button class="nav-item" data-panel="gallery">🖼️ Galeri</button>
+          <button class="nav-item" data-panel="showcase">🎮 Showcase</button>
+          <button class="nav-item" data-panel="contact">✉️ İletişim</button>
+          <button class="nav-item" data-panel="footer">🔗 Footer & Sosyal</button>
+          <button class="nav-item" data-panel="settings">⚙️ Ayarlar</button>
+        </nav>
+        <div class="sidebar-footer">
+          <button class="btn btn-secondary btn-sm" id="logout-btn" style="width:100%">Çıkış Yap</button>
+        </div>
+      </aside>
+
+      <main class="admin-main">
+        <div class="admin-header">
+          <h1 id="panel-title">Ana Sayfa</h1>
+          <div class="header-actions">
+            <button class="btn btn-secondary btn-sm" id="preview-btn">👁 Siteyi Görüntüle</button>
+            <button class="btn btn-secondary btn-sm" id="import-btn">📥 İçe Aktar</button>
+            <button class="btn btn-secondary btn-sm" id="export-btn">📤 Dışa Aktar</button>
+            <button class="btn btn-success btn-sm" id="save-btn">💾 Kaydet ve Yayınla</button>
+          </div>
+        </div>
+
+        <div class="publish-notice">
+          <strong>ℹ️ Yayınlama:</strong> "Kaydet ve Yayınla" butonu, GitHub yayın ayarları yapılandırılmışsa
+          içeriği doğrudan deponuza gönderir ve site birkaç dakika içinde otomatik güncellenir
+          (Ayarlar → Yayınlama Ayarları). Ayarlanmamışsa değişiklikler yalnızca bu tarayıcıda saklanır;
+          bu durumda "Dışa Aktar" ile indirdiğiniz dosyayı elle <code>data/site-content.json</code> konumuna koyabilirsiniz.
+        </div>
+
+        <input type="file" id="import-file" accept=".json" class="hidden">
+
+        <!-- Panels rendered by admin.js -->
+        <div id="panels-container"></div>
+      </main>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="../js/content-store.js"></script>
+  <script src="../js/admin.js"></script>
+</body>
+</html>

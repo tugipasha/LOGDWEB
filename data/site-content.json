@@ -1,0 +1,294 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-23T00:00:00.000Z",
+  "home": {
+    "hero": {
+      "title": {
+        "tr": "Liseli oyun geliştiricilerin oyun dünyasına açılan kapısı",
+        "en": "The gateway for high school game developers to enter the game world"
+      },
+      "subtitle": {
+        "tr": "LOGD, Türkiye'nin dört bir yanındaki liseli oyun geliştiricileri bir araya getirerek öğrenme, üretme ve paylaşma kültürünü güçlendirir.",
+        "en": "LOGD brings together high school game developers across Turkey, strengthening a culture of learning, creating and sharing."
+      },
+      "ctaPrimary": { "tr": "Etkinliklere Göz At", "en": "Browse Events" },
+      "ctaSecondary": { "tr": "Haberleri Gör", "en": "View News" }
+    },
+    "about": {
+      "title": { "tr": "LOGD Nedir?", "en": "What is LOGD?" },
+      "text": {
+        "tr": "Liseli Oyun Geliştiriciler Derneği (LOGD), oyun geliştirmeye ilgi duyan lise öğrencilerini bir araya getiren, kâr amacı gütmeyen bir topluluktur. LOGD; öğrenci topluluklarını destekler, yeni toplulukların kurulmasına yardımcı olur ve genç geliştiricilere oyun sektörüne dair gerçek üretim deneyimleri sunar. Türkiye'deki birçok oyun geliştirme topluluğu (Global Game Jam Turkey, IGDA Izmir, Games For Change Türkiye gibi) ile işbirliği yaparız.",
+        "en": "The High School Game Developers Association (LOGD) is a non-profit community that brings together high school students interested in game development. LOGD supports student communities, helps establish new ones, and provides young developers with real production experiences in the game industry."
+      }
+    },
+    "galleryMarquee": {
+      "title": { "tr": "Etkinliklerimizden Kareler", "en": "Moments from Our Events" },
+      "buttonText": { "tr": "Tüm Galeriyi Gör", "en": "View Full Gallery" },
+      "images": [
+        { "src": "images/Galeri/SnowyJam/WhatsApp_Image_2026-02-01_17.39.16.webp", "alt": "Snowy Jam" },
+        { "src": "images/Galeri/20250411_191818.webp", "alt": "GGJ Next 2025" },
+        { "src": "images/Galeri/20250412_120956.webp", "alt": "GGJ Next 2025" },
+        { "src": "images/Galeri/SnowyJam/WhatsApp_Image_2026-02-01_17.40.54.webp", "alt": "Snowy Jam" },
+        { "src": "images/Galeri/20250412_145331.webp", "alt": "GGJ Next 2025" },
+        { "src": "images/Galeri/20250413_150058.webp", "alt": "GGJ Next 2025" },
+        { "src": "images/Galeri/20250413_163909.webp", "alt": "GGJ Next 2025" },
+        { "src": "images/Galeri/SnowyJam/WhatsApp_Image_2026-02-01_17.41.00.webp", "alt": "Snowy Jam" },
+        { "src": "images/Galeri/20250413_173901.webp", "alt": "GGJ Next 2025" },
+        { "src": "images/Galeri/20250412_192600.webp", "alt": "GGJ Next 2025" }
+      ]
+    },
+    "communities": {
+      "title": { "tr": "Öğrenci Topluluklarımız", "en": "Our Student Communities" },
+      "description": {
+        "tr": "LOGD, game developers Turkey, indie game developers Turkey, Unity developers Turkey, Unreal Engine Turkey community, game jam Turkey, Global Game Jam Turkey, IGDA Turkey, Türkiye oyun geliştirici derneği gibi birçok oyun geliştirme topluluğu ile güçlü bağlantılar kurar.",
+        "en": "LOGD builds strong connections with many game development communities across Turkey."
+      },
+      "items": [
+        { "name": "BUFALO Game Dev", "logo": "images/BUFALO Game Dev.webp", "url": "https://www.instagram.com/bufalogamedev/" },
+        { "name": "BAL Game Dev", "logo": "images/balgamedev.webp", "url": "https://www.instagram.com/balgamedevelopment/" },
+        { "name": "CKAL Game Dev", "logo": "images/CKAL Game Dev.webp", "url": "https://www.instagram.com/ckalgamedev/" },
+        { "name": "Mahzar Game Dev", "logo": "images/Mahzar Game Development.webp", "url": "https://www.instagram.com/mazharzorlugamedevelopment" },
+        { "name": "NUMTAL Game Dev", "logo": "images/NUMTAL Game Development.webp", "url": "https://www.instagram.com/numtalgamedev/" },
+        { "name": "YEAL POG", "logo": "images/YEAL POG.webp", "url": "https://www.instagram.com/yealpog/" },
+        { "name": "Çiçekli Game Dev", "logo": "images/Çiçekli Game Dev.webp", "url": "https://www.instagram.com/cicekli_gamedev/" },
+        { "name": "İAL Game Dev", "logo": "images/İAL Game Dev.webp", "url": "https://www.instagram.com/ialgamedevelopment/" },
+        { "name": "İFL Game Dev", "logo": "images/İFL Game Dev.webp", "url": "https://www.instagram.com/iflgamedev/" }
+      ]
+    },
+    "sponsors": {
+      "title": { "tr": "Sponsorlarımız", "en": "Our Sponsors" },
+      "items": [
+        { "name": "PUBG Mobile", "logos": ["images/PUBG_Mobile_Black_Logo.webp", "images/pubgcs.webp"], "stacked": true },
+        { "name": "Global Game Jam", "logos": ["images/ggj-logo.webp"], "stacked": false },
+        { "name": "IGDA Izmir", "logos": ["images/Sponsorlar/igdaizmir_logo.webp"], "stacked": false },
+        { "name": "Gaming Istanbul", "logos": ["images/Sponsorlar/gaming_istanbul_logo.webp"], "stacked": false },
+        { "name": "Neotroy Games", "logos": ["images/Sponsorlar/neotroygameslogo.webp"], "stacked": false },
+        { "name": "Games For Change Turkey", "logos": ["images/Sponsorlar/games_for_change_turkiye.webp"], "stacked": false }
+      ]
+    }
+  },
+  "about": {
+    "pageTitle": { "tr": "Biz Kimiz?", "en": "Who Are We?" },
+    "pageSubtitle": {
+      "tr": "LOGD, liseli oyun geliştiriciler için kapsayıcı, üretken ve sürdürülebilir bir ekosistem oluşturmayı hedefler.",
+      "en": "LOGD aims to create an inclusive, productive and sustainable ecosystem for high school game developers."
+    },
+    "story": {
+      "title": { "tr": "LOGD'nin Hikâyesi", "en": "The LOGD Story" },
+      "text": {
+        "tr": "Liseli Oyun Geliştiriciler Derneği (LOGD), oyun geliştirmeye ilgi duyan lise öğrencilerini bir araya getiren, kâr amacı gütmeyen bir topluluktur. LOGD; lise oyun geliştirme topluluğu Türkiye, üniversite oyun tasarım topluluğu, student game dev community Turkey, GGJ Next Turkey, youth game developers Turkey gibi genç odaklı toplulukları destekler, yeni toplulukların kurulmasına yardımcı olur ve genç geliştiricilere oyun sektörüne dair gerçek üretim deneyimleri sunar.",
+        "en": "LOGD is a non-profit community bringing together high school students interested in game development across Turkey."
+      }
+    },
+    "vision": {
+      "label": { "tr": "🎯 Vizyon", "en": "🎯 Vision" },
+      "text": { "tr": "Genç oyun geliştiriciler için Türkiye'nin en güçlü destek ağı olmak.", "en": "To be Turkey's strongest support network for young game developers." }
+    },
+    "mission": {
+      "label": { "tr": "🚀 Misyon", "en": "🚀 Mission" },
+      "text": {
+        "tr": "Öğrencilerin öğrenme, üretme ve paylaşma fırsatlarını artırmak; oyun geliştirme kültürünü yaymak ve sektör ile öğrenciler arasında köprü kurmak.",
+        "en": "To increase students' opportunities to learn, create and share; to spread game development culture and bridge the industry with students."
+      }
+    },
+    "sponsorship": {
+      "title": { "tr": "Sponsorluk & İş Birlikleri", "en": "Sponsorship & Partnerships" },
+      "text": {
+        "tr": "LOGD, Global Game Jam NEXT LOGD-IN gibi büyük ölçekli etkinliklerle genç geliştiricilere doğrudan ulaşır ve markalar için sürdürülebilir iş birliği fırsatları sunar.",
+        "en": "LOGD reaches young developers through large-scale events and offers sustainable partnership opportunities for brands."
+      }
+    },
+    "academic": {
+      "title": { "tr": "Akademik & Resmi Yapılar", "en": "Academic & Official Structures" },
+      "text": {
+        "tr": "LOGD, games for change Turkey gibi akademik ve resmi yapılar ile işbirliği yaparak oyun geliştirme alanında bilimsel ve sosyal projeler yürütür.",
+        "en": "LOGD collaborates with academic and official structures to carry out scientific and social projects in game development."
+      }
+    }
+  },
+  "events": {
+    "pageTitle": { "tr": "Birlikte Üretiyoruz", "en": "Creating Together" },
+    "pageSubtitle": {
+      "tr": "LOGD olarak oyun geliştirmenin her alanını kapsayan etkinlikler düzenliyoruz.",
+      "en": "As LOGD, we organize events covering every area of game development."
+    },
+    "items": [
+      {
+        "id": "snowyjam",
+        "title": { "tr": "Snowy Jam", "en": "Snowy Jam" },
+        "description": {
+          "tr": "Numtal Game Dev önderliğinde topluluğumuzdaki 10 okulda 10-14 Ocak tarihleri arasında eş zamanlı olarak düzenlenen Gamejam etkinliğimiz.",
+          "en": "Our game jam event held simultaneously at 10 schools in our community between January 10-14, led by Numtal Game Dev."
+        },
+        "image": "images/logd.webp",
+        "emoji": "❄️"
+      },
+      {
+        "id": "ggjnext",
+        "title": { "tr": "GGJ Next 2025", "en": "GGJ Next 2025" },
+        "description": {
+          "tr": "Genç geliştiriciler için dünyanın en büyük game jam organizasyonunun 2025 ayağı. Türkiye'deki ilk fiziksel GGJ Next etkinliği!",
+          "en": "The 2025 edition of the world's largest game jam for young developers. Turkey's first physical GGJ Next event!"
+        },
+        "image": "images/ggjnext-2025.webp",
+        "emoji": "🎮"
+      },
+      {
+        "id": "godot",
+        "title": { "tr": "Godot Sponsorluğunda Godot Eğitimi", "en": "Godot Training Sponsored by Godot" },
+        "description": {
+          "tr": "Godot engine ile oyun geliştirme dünyasına adım atmak isteyenler için online dersler, ödevlendirmelerle desteklenen bir eğitim süreci.",
+          "en": "An online training process with lessons and assignments for those who want to step into game development with Godot engine."
+        },
+        "image": "images/godotetkinlik.webp",
+        "emoji": "🤖"
+      }
+    ]
+  },
+  "news": {
+    "pageTitle": { "tr": "Haberler", "en": "News" },
+    "pageSubtitle": {
+      "tr": "LOGD topluluğundan son haberler, duyurular ve etkinlik güncellemeleri.",
+      "en": "Latest news, announcements and event updates from the LOGD community."
+    },
+    "items": [
+      {
+        "id": "website-launch",
+        "tag": { "tr": "⭐ ÖNEMLİ DUYURU", "en": "⭐ IMPORTANT ANNOUNCEMENT" },
+        "title": { "tr": "🎉 LOGD Web Sitesi Yayında!", "en": "🎉 LOGD Website is Live!" },
+        "date": "2025-02-28",
+        "author": { "tr": "LOGD Yönetim Ekibi", "en": "LOGD Management Team" },
+        "paragraphs": {
+          "tr": [
+            "Liseler Oyun Geliştirme Derneği'nin resmi web sitesi artık yayında! Türkiye'nin dört bir yanındaki genç oyun geliştiricilerini bir araya getiren platformumuz, şimdi daha profesyonel ve kullanıcı dostu bir arayüzle karşınızda.",
+            "Yeni web sitemizde neler var? Tüm etkinliklerimizi detaylıca inceleyebilir, haberlerimizi takip edebilir ve hemen üyelik başvurusunda bulunabilirsiniz. Ayrıca karanlık mod desteği ile göz yorulmadan gezinme imkanı sunuyoruz!"
+          ],
+          "en": [
+            "The official website of the High School Game Development Association is now live!",
+            "What's on our new website? You can explore all our events, follow our news, and apply for membership."
+          ]
+        },
+        "featuresTitle": { "tr": "Yeni özellikler:", "en": "New features:" },
+        "features": {
+          "tr": [
+            "✨ Etkinlik detay sayfaları ve katılım formları",
+            "📰 Haber ve duyuru sistemi",
+            "💬 Gelişmiş iletişim formları",
+            "🌙 Karanlık mod desteği"
+          ],
+          "en": [
+            "✨ Event detail pages and registration forms",
+            "📰 News and announcement system",
+            "💬 Advanced contact forms",
+            "🌙 Dark mode support"
+          ]
+        },
+        "buttonText": { "tr": "LOGD Hakkında Daha Fazla Bilgi →", "en": "Learn More About LOGD →" },
+        "buttonLink": "hakkimizda.html",
+        "featured": true
+      }
+    ]
+  },
+  "gallery": {
+    "pageTitle": { "tr": "Etkinlik Galerisi", "en": "Event Gallery" },
+    "pageSubtitle": {
+      "tr": "LOGD etkinliklerinden unutulmaz anlar",
+      "en": "Unforgettable moments from LOGD events"
+    },
+    "categories": [
+      {
+        "id": "snowyjam",
+        "title": { "tr": "Snowy Jam", "en": "Snowy Jam" },
+        "images": [
+          { "src": "images/logd.webp", "alt": "LOGD Community", "large": true },
+          { "src": "images/Galeri/SnowyJam/WhatsApp_Image_2026-02-01_17.39.16.webp", "alt": "Snowy Jam - Etkinlik Anı" },
+          { "src": "images/Galeri/SnowyJam/WhatsApp_Image_2026-02-01_17.39.23.webp", "alt": "Snowy Jam - Topluluk" },
+          { "src": "images/Galeri/SnowyJam/WhatsApp_Image_2026-02-01_17.40.43.webp", "alt": "Snowy Jam - Sunum Hazırlığı" },
+          { "src": "images/Galeri/SnowyJam/WhatsApp_Image_2026-02-01_17.40.54.webp", "alt": "Snowy Jam - Geliştirme Aşaması" },
+          { "src": "images/Galeri/SnowyJam/WhatsApp_Image_2026-02-01_17.40.57.webp", "alt": "Snowy Jam - Takım Çalışması" },
+          { "src": "images/Galeri/SnowyJam/WhatsApp_Image_2026-02-01_17.41.00.webp", "alt": "Snowy Jam - Kapanış" }
+        ]
+      },
+      {
+        "id": "ggjnext",
+        "title": { "tr": "GGJ Next 2025", "en": "GGJ Next 2025" },
+        "images": [
+          { "src": "images/ggjnext-2025.webp", "alt": "GGJ Next 2025", "large": true },
+          { "src": "images/Galeri/20250411_191818.webp", "alt": "GGJ Next 2025 - Sunum" },
+          { "src": "images/Galeri/20250412_120956.webp", "alt": "GGJ Next 2025 - Etkinlik" },
+          { "src": "images/Galeri/20250412_121018.webp", "alt": "GGJ Next 2025 - Katılım" },
+          { "src": "images/Galeri/20250412_134948.webp", "alt": "GGJ Next 2025 - Geliştirme" },
+          { "src": "images/Galeri/20250412_145331.webp", "alt": "GGJ Next 2025 - Takım" },
+          { "src": "images/Galeri/20250412_192600.webp", "alt": "GGJ Next 2025 - Gece" },
+          { "src": "images/Galeri/20250413_145126.webp", "alt": "GGJ Next 2025 - Çalışma" },
+          { "src": "images/Galeri/20250413_145258.webp", "alt": "GGJ Next 2025 - Tasarım" },
+          { "src": "images/Galeri/20250413_150058.webp", "alt": "GGJ Next 2025 - Kodlama" },
+          { "src": "images/Galeri/20250413_163417.webp", "alt": "GGJ Next 2025 - Mentor" },
+          { "src": "images/Galeri/20250413_163909.webp", "alt": "GGJ Next 2025 - Üretim" },
+          { "src": "images/Galeri/20250413_163915.webp", "alt": "GGJ Next 2025 - Geliştirme" },
+          { "src": "images/Galeri/20250413_164113.webp", "alt": "GGJ Next 2025 - Proje" },
+          { "src": "images/Galeri/20250413_164126.webp", "alt": "GGJ Next 2025 - Odak" },
+          { "src": "images/Galeri/20250413_173901.webp", "alt": "GGJ Next 2025 - Takım Çalışması" },
+          { "src": "images/Galeri/FE725178-381C-4D25-AFC9-DF46DC336506.webp", "alt": "GGJ Next 2025 - Sertifika" }
+        ]
+      }
+    ]
+  },
+  "showcase": {
+    "pageTitle": { "tr": "Showcase", "en": "Showcase" },
+    "pageSubtitle": {
+      "tr": "LOGD topluluğu tarafından geliştirilen harika oyunlar",
+      "en": "Amazing games developed by the LOGD community"
+    },
+    "games": [],
+    "comingSoon": {
+      "title": { "tr": "Yakında", "en": "Coming Soon" },
+      "text": {
+        "tr": "Yeni oyunlar çok yakında burada görünecek! Topluluğumuzun geliştirdiği projeleri takip edin.",
+        "en": "New games will appear here very soon! Follow the projects developed by our community."
+      },
+      "buttonText": { "tr": "Oyununu Ekle", "en": "Add Your Game" }
+    },
+    "apply": {
+      "title": { "tr": "Projeniz Burada Olabilir", "en": "Your Project Could Be Here" },
+      "text": {
+        "tr": "Geliştirdiğiniz oyunu LOGD showcase'inde sergilemek ister misiniz? Bizimle iletişime geçin!",
+        "en": "Would you like to showcase your game in the LOGD showcase? Contact us!"
+      },
+      "buttonText": { "tr": "Başvur", "en": "Apply" }
+    }
+  },
+  "contact": {
+    "pageTitle": { "tr": "İletişim", "en": "Contact" },
+    "pageSubtitle": {
+      "tr": "Sorularınız, önerileriniz veya işbirliği talepleriniz için bizimle iletişime geçin.",
+      "en": "Contact us for your questions, suggestions or collaboration requests."
+    },
+    "generalTitle": { "tr": "Genel İletişim", "en": "General Contact" },
+    "generalText": { "tr": "Sorularınız ve önerileriniz için bize yazın.", "en": "Write to us for your questions and suggestions." },
+    "partnershipTitle": { "tr": "İş Birliği & Sponsorluk", "en": "Partnership & Sponsorship" },
+    "partnershipText": {
+      "tr": "Marka iş birlikleri, sponsorluk ve etkinlik teklifleri için bizimle iletişime geçin.",
+      "en": "Contact us for brand partnerships, sponsorship and event proposals."
+    },
+    "email": "info@izmirlogt.com",
+    "formTitle": { "tr": "İletişim Formu", "en": "Contact Form" }
+  },
+  "footer": {
+    "aboutTitle": { "tr": "LOGD Hakkında", "en": "About LOGD" },
+    "text": {
+      "tr": "Liseler Oyun Geliştirme Derneği - Türkiye'nin liseli oyun geliştiricileri için en kapsayıcı topluluk. Öğrenme, üretme ve paylaşma kültürünü birlikte büyütüyoruz.",
+      "en": "High School Game Development Association - Turkey's most inclusive community for high school game developers."
+    },
+    "copyright": {
+      "tr": "© 2026 LOGD - Liseler Oyun Geliştirme Derneği. Tüm hakları saklıdır.",
+      "en": "© 2026 LOGD - High School Game Development Association. All rights reserved."
+    },
+    "instagram": "https://www.instagram.com/izmirlogt",
+    "linkedin": "https://www.linkedin.com/company/liseler-oyun-geli%C5%9Ftiriciler-derne%C4%9Fi/"
+  },
+  "settings": {
+    "countdownTitle": { "tr": "GGJ Next", "en": "GGJ Next" },
+    "countdownDate": "2026-02-13T00:00:00"
+  }
+}

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <!-- Preconnect to external origins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://www.googletagmanager.com">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-8T9H5EBMMT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-8T9H5EBMMT');
+  </script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Showcase - LOGD | Topluluk Oyunları</title>
+  <meta name="description" content="LOGD topluluğu tarafından geliştirilen oyunları keşfedin! Genç geliştiricilerin projelerini görün ve oyununuzu ekleyin.">
+  <meta name="keywords" content="LOGD showcase, oyun geliştirme projeleri, öğrenci oyunları, topluluk oyunları">
+  <meta name="author" content="LOGD - Liseler Oyun Geliştiriciler Derneği">
+  <meta name="robots" content="index, follow">
+  
+  <!-- Open Graph -->
+  <meta property="og:title" content="Showcase - LOGD">
+  <meta property="og:description" content="LOGD topluluğu tarafından geliştirilen oyunları keşfedin! Genç geliştiricilerin projelerini görün ve oyununuzu ekleyin.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://logd.org.tr/showcase.html">
+  <meta property="og:image" content="https://logd.org.tr/images/logdLogo.png">
+  <meta property="og:locale" content="tr_TR">
+  <meta property="og:locale:alternate" content="en_US">
+  
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Showcase - LOGD">
+  <meta name="twitter:description" content="LOGD topluluğu tarafından geliştirilen oyunları keşfedin! Genç geliştiricilerin projelerini görün ve oyununuzu ekleyin.">
+  <meta name="twitter:image" content="https://logd.org.tr/images/logdLogo.png">
+  <link rel="canonical" href="https://logd.org.tr/showcase.html">
+  
+  <link rel="icon" type="image/jpeg" href="images/solyukarilogo.jpeg">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <a href="index.html" class="logo">
+          <img src="images/solyukarilogo.webp" alt="LOGD Logo" loading="lazy" decoding="async">
+          <span>LOGD</span>
+        </a>
+        
+        <ul class="nav-links">
+          <li><a href="index.html">Ana Sayfa</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="hakkimizda.html">Hakkımızda</a></li>
+          <li><a href="etkinlikler.html">Etkinlikler</a></li>
+          <li><a href="showcase.html" class="active">Showcase</a></li>
+          <li><a href="haberler.html">Haberler</a></li>
+          <li><a href="iletisim.html">İletişim</a></li>
+        </ul>
+
+        <div class="nav-right-items">
+          <select id="language-selector" class="language-selector">
+            <option value="tr">🇹🇷 TR</option>
+            <option value="en">🇬🇧 EN</option>
+          </select>
+          <button class="theme-toggle" id="theme-toggle" title="Tema Değiştir">
+            <svg class="sun-icon" fill="currentColor" viewBox="0 0 20 20"><path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.464 5.05l-.707-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z"></path></svg>
+            <svg class="moon-icon" fill="currentColor" viewBox="0 0 20 20"><path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z"></path></svg>
+          </button>
+          <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+    <main id="showcase" class="page active">
+        <header class="page-header">
+            <h1 id="showcase-title">Showcase</h1>
+            <p id="showcase-subtitle">LOGD topluluğu tarafından geliştirilen harika oyunlar</p>
+        </header>
+        
+        <div class="content-section">
+            <div class="showcase-container">
+                <!-- Coming Soon Card -->
+                <div class="showcase-card">
+                    <div class="card-visual">
+                        <span class="emoji">🎮</span>
+                    </div>
+                    <div class="card-content">
+                        <h2 id="showcase-coming-soon-title">Yakında</h2>
+                        <p id="showcase-coming-soon-text">Yeni oyunlar çok yakında burada görünecek! Topluluğumuzun geliştirdiği projeleri takip edin.</p>
+                        <a href="iletisim.html" class="btn-outline" id="showcase-add-game-btn">Oyununu Ekle</a>
+                    </div>
+                </div>
+
+                <!-- Apply Card -->
+                <div class="showcase-card">
+                    <div class="card-visual">
+                        <span class="emoji">🚀</span>
+                    </div>
+                    <div class="card-content">
+                        <h2 id="showcase-your-project-title">Projeniz Burada Olabilir</h2>
+                        <p id="showcase-your-project-text">Geliştirdiğiniz oyunu LOGD showcase'inde sergilemek ister misiniz? Bizimle iletişime geçin!</p>
+                        <a href="iletisim.html" class="btn-outline" id="showcase-apply-btn">Başvur</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4 id="footer-about-title">LOGD Hakkında</h4>
+                <p id="footer-text">Liseler Oyun Geliştirme Derneği - Türkiye'nin liseli oyun geliştiricileri için en kapsayıcı topluluk. Öğrenme, üretme ve paylaşma kültürünü birlikte büyütüyoruz.</p>
+                <div class="social-links">
+                    <a href="https://www.instagram.com/izmirlogt?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noopener" class="social-icon" id="social-instagram">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163-2.759-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" /></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/company/liseler-oyun-geli%C5%9Ftiriciler-derne%C4%9Fi/?trk=public_post_feed-actor-name" target="_blank" rel="noopener" class="social-icon" id="social-linkedin">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" /></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h4 id="footer-menu-title">Hızlı Menü</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html">Ana Sayfa</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="hakkimizda.html">Hakkımızda</a></li>
+                    <li><a href="etkinlikler.html">Etkinlikler</a></li>
+                    <li><a href="showcase.html">Showcase</a></li>
+                    <li><a href="haberler.html">Haberler</a></li>
+                    <li><a href="iletisim.html">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4 id="footer-legal-title">Yasal</h4>
+                <ul class="footer-links">
+                    <li><a href="#" id="legal-kvkk">KVKK</a></li>
+                    <li><a href="#" id="legal-privacy">Gizlilik Politikası</a></li>
+                    <li><a href="#" id="legal-cookies">Çerez Politikası</a></li>
+                    <li><a href="#" id="legal-terms">Kullanım Koşulları</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p id="footer-copyright">© 2026 LOGD - Liseler Oyun Geliştirme Derneği. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Liseler Oyun Geliştiriciler Derneği",
+      "alternateName": "LOGD",
+      "url": "https://logd.org.tr",
+      "logo": "https://logd.org.tr/images/logdLogo.png",
+      "description": "Türkiye'nin liseli oyun geliştiricileri için en kapsayıcı topluluğu. Game jam, workshop, meetup ve dev talk etkinlikleri düzenleriz.",
+      "sameAs": [
+        "https://www.instagram.com/izmirlogt",
+        "https://www.linkedin.com/company/liseler-oyun-geli%C5%9Ftiriciler-derne%C4%9Fi/"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TR"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "email": "info@izmirlogt.com",
+        "contactType": "customer service"
+      }
+    }
+  </script>
+
+  <script src="js/script.min.js" defer></script>
+</body>
+</html>

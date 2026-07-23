@@ -1,0 +1,33 @@
+# ==========================================
+# LOGD - Liseler Oyun Geliştiriciler Derneği
+# robots.txt - Professional Version
+# ==========================================
+
+User-agent: *
+Allow: /
+
+# Directories to exclude
+Disallow: /cgi-bin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /temp/
+Disallow: /backup/
+Disallow: /logs/
+Disallow: /admin/
+
+# Files to exclude
+Disallow: /error_log
+Disallow: /README.md
+Disallow: /LICENSE
+Disallow: /.git/
+Disallow: /.vscode/
+
+# Optimize for clean crawling
+Crawl-delay: 1
+
+# Sitemap Location
+Sitemap: https://www.izmirlogt.com/sitemap.xml
+
+# ==========================================
+# End of robots.txt
+# ==========================================
